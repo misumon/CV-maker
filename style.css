@@ -12,9 +12,9 @@
   box-shadow: 2px 4px 10px gray;
 }
 .header-section {
-  background: hsl(207, 100%, 42%) none repeat scroll 0 0;
+  background: hsl(0, 0%, 80%) none repeat scroll 0 0;
   border-bottom: 3px solid hsl(0, 0%, 0%);
-  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 0%);
   font-family: times new roman;
   font-size: 17px;
   padding: 17px 0;
@@ -99,4 +99,9 @@ h2:hover {
   font-size: 24px;
   padding-top: 8px;
   font-weight: bold;
+}
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 6px 0;
 }
